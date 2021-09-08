@@ -1,6 +1,12 @@
 import React from 'react';
 import {Link} from 'react-scroll';
 
+// images
+import html from './home_img/html.png';
+import css from './home_img/css.png';
+import js from './home_img/js.png';
+import react from './home_img/react.png';
+import sass from './home_img/sass.png';
 
 
 const HomeRight = () => {
@@ -12,28 +18,28 @@ const HomeRight = () => {
             </div>
             <div className="languages">
                 <div className="languages__Container">
-                    <img alt="html logo" className="languages__img" src="/img/html.png"/>
+                    <img alt="html logo" className="languages__img" src={html}/>
                     <p className="languages__text">html</p>
                 </div>
 
                 <div className="languages__Container">
-                    <img alt="css logo" className="languages__img" src="/img/css.png"/>
+                    <img alt="css logo" className="languages__img" src={css}/>
                     <p className="languages__text">css</p>
                 </div>
 
                 <div className="languages__Container">
-                    <img alt="javascript logo" className="languages__img" src="/img/js.png"/>
+                    <img alt="javascript logo" className="languages__img" src={js}/>
                     <p className="languages__text">js</p>
                 </div>
 
                 <div className="languages__Container">
-                    <img alt="react logo" className="languages__img" src="/img/react.png"/>
+                    <img alt="react logo" className="languages__img" src={react}/>
                     <p className="languages__text">react</p>
                     
                 </div>
 
                 <div className="languages__Container">
-                    <img alt="sass logo" className="languages__img" src="/img/sass.png"/>
+                    <img alt="sass logo" className="languages__img" src={sass}/>
                     <p className="languages__text">sass</p>
                 </div>
             </div>

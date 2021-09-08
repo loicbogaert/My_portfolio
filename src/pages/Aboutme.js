@@ -1,5 +1,9 @@
 import React from 'react';
 
+import manette from './about_img/manette.png';
+import guitar from './about_img/guitar.png';
+import code from './about_img/code.png';
+
 const Aboutme = () => {
     return (
         <div className="aboutmePage">
@@ -33,7 +37,7 @@ const Aboutme = () => {
                         <div className="aboutmeContainer__passionsContainer">
                             <div className="aboutmeContainer__passionsDiv">
                                 <div className="imgContainer"> 
-                                    <img className="guitar" src="img/guitar.png"/>
+                                    <img alt="icone de guitare" className="guitar" src={guitar}/>
                                 </div>
                                 <h5 className="aboutmeContainer__passionsTitle">La guitare</h5>
                                 <p className="aboutmeContainer__passionsTxt">J'apprends la guitare électrique en autodidacte depuis maintenant 4 ans. 
@@ -43,7 +47,7 @@ const Aboutme = () => {
 
                             <div className="aboutmeContainer__passionsDiv">
                             <div className="imgContainer"> 
-                                    <img className="guitar" src="img/manette.png"/>
+                                    <img alt="icone de manette" className="guitar" src={manette}/>
                                 </div>
                                 <h5 className="aboutmeContainer__passionsTitle">Les jeux vidéo</h5>
                                 <p className="aboutmeContainer__passionsTxt">Un de mes passe-temps favoris est de jouer sur pc avec mes amis.</p>
@@ -51,7 +55,7 @@ const Aboutme = () => {
 
                             <div className="aboutmeContainer__passionsDiv">
                                 <div className="imgContainer"> 
-                                    <img className="guitar codeImg" src="img/code.png"/>
+                                    <img alt="icone de code" className="guitar codeImg" src={code}/>
                                 </div>
                                 <h5 className="aboutmeContainer__passionsTitle">Et bien sûr coder !</h5>
                                 <p className="aboutmeContainer__passionsTxt">J'aime coder dans mon temps libre, que ce soit des petites choses sans trop d'intérêt, ou des projets persos plus conséquents.</p>
