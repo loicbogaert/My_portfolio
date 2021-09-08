@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/My_portfolio/static/css/main.a5293718.chunk.css",
+    "main.js": "/My_portfolio/static/js/main.cd7b7563.chunk.js",
+    "main.js.map": "/My_portfolio/static/js/main.cd7b7563.chunk.js.map",
+    "runtime-main.js": "/My_portfolio/static/js/runtime-main.198c622d.js",
+    "runtime-main.js.map": "/My_portfolio/static/js/runtime-main.198c622d.js.map",
+    "static/js/2.3acc2f38.chunk.js": "/My_portfolio/static/js/2.3acc2f38.chunk.js",
+    "static/js/2.3acc2f38.chunk.js.map": "/My_portfolio/static/js/2.3acc2f38.chunk.js.map",
+    "index.html": "/My_portfolio/index.html",
+    "static/css/main.a5293718.chunk.css.map": "/My_portfolio/static/css/main.a5293718.chunk.css.map",
+    "static/js/2.3acc2f38.chunk.js.LICENSE.txt": "/My_portfolio/static/js/2.3acc2f38.chunk.js.LICENSE.txt",
+    "static/media/bootstrap.02e16df6.png": "/My_portfolio/static/media/bootstrap.02e16df6.png",
+    "static/media/chouette.149cf0be.png": "/My_portfolio/static/media/chouette.149cf0be.png",
+    "static/media/css.463e319b.png": "/My_portfolio/static/media/css.463e319b.png",
+    "static/media/guitar.08c7e0b2.png": "/My_portfolio/static/media/guitar.08c7e0b2.png",
+    "static/media/html.6e930594.png": "/My_portfolio/static/media/html.6e930594.png",
+    "static/media/js.edc1b02f.png": "/My_portfolio/static/media/js.edc1b02f.png",
+    "static/media/mongodb.2f81ed7e.png": "/My_portfolio/static/media/mongodb.2f81ed7e.png",
+    "static/media/mysql.cd8ee00f.png": "/My_portfolio/static/media/mysql.cd8ee00f.png",
+    "static/media/nodejs.07d152a8.png": "/My_portfolio/static/media/nodejs.07d152a8.png",
+    "static/media/ohmyfood.68c909c1.png": "/My_portfolio/static/media/ohmyfood.68c909c1.png",
+    "static/media/orinocco.e968937f.png": "/My_portfolio/static/media/orinocco.e968937f.png",
+    "static/media/piquante.163b2763.png": "/My_portfolio/static/media/piquante.163b2763.png",
+    "static/media/react.20adfb35.png": "/My_portfolio/static/media/react.20adfb35.png",
+    "static/media/sass.24d60c4f.png": "/My_portfolio/static/media/sass.24d60c4f.png",
+    "static/media/sequelize.d98b2554.png": "/My_portfolio/static/media/sequelize.d98b2554.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.198c622d.js",
+    "static/js/2.3acc2f38.chunk.js",
+    "static/css/main.a5293718.chunk.css",
+    "static/js/main.cd7b7563.chunk.js"
+  ]
+}
