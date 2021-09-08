@@ -51,7 +51,7 @@
             border-bottom: solid 1px $color1;
             background-color: white;
             letter-spacing: 1.5px;
-            opacity: 100%;
+            visibility: visible;
         }
     }
     a {
@@ -62,7 +62,7 @@
         line-height: 50px;
     }
     #contact2{
-        opacity: 0%;
+        visibility: hidden;
     }
     #contact1{
         font-size : 50px;
