@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://loicbogaert.github.io/My_portfolio",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
