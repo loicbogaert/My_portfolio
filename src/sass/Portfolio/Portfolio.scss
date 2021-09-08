@@ -18,13 +18,13 @@
         justify-content: center;
         text-decoration: none;
         position: relative;
-        &:hover {
-            .portfolioContainer__txt {
+    }
+
+    &__link:hover #txt {
                 opacity: 99%;
                 background-color: rgba(0, 0, 0, 0.8);
-            }
-        }
     }
+
     &__item {
         height: 100%;
         width: 100%;
@@ -42,8 +42,6 @@
         justify-content: center;
         color: $color1;
         font-family: 'Lobster', cursive;
-        z-index: 999;
-
     }
 
     img {
