@@ -6,6 +6,7 @@ import chouette from './portfolio_img/chouette.png';
 import ohmyfood from './portfolio_img/ohmyfood.png';
 import orinocco from './portfolio_img/orinocco.png';
 import piquante from './portfolio_img/piquante.png';
+import comingsoon from './portfolio_img/comingsoon.jpg';
 
 
 const Portfolio = () => {
@@ -45,7 +46,7 @@ const Portfolio = () => {
 
             <a className="portfolioContainer__link">
                 <div className="portfolioContainer__item">
-                    <img src="img/ohmyfood.png" alt="aperçu du site"/>
+                    <img src={comingsoon} alt="aperçu du site"/>
                     <p className="portfolioContainer__txt" id="txt">Réalisation d'un réseau social d'entreprise : Backend (API, BDD) + front-end. Comprends la création de compte, 
                         envoi de messages, création d'articles, modération...
                     </p>
@@ -54,7 +55,7 @@ const Portfolio = () => {
 
             <a className="portfolioContainer__link">
                 <div className="portfolioContainer__item">
-                    <img src="" alt="aperçu du site"/>
+                    <img src={comingsoon} alt="aperçu du site"/>
                     <p className="portfolioContainer__txt" id="txt">Projet en cours ...</p>
                 </div>
             </a>
