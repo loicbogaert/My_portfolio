@@ -21,7 +21,8 @@
     }
 
     &__link:hover #txt {
-        opacity: 20%;
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0.8);
     }
 
     &__item {
@@ -41,8 +42,6 @@
         justify-content: center;
         color: $color1;
         font-family: 'Lobster', cursive;
-        opacity: 0%;
-        background-color: rgba(0, 0, 0, 0.8);
         z-index: 999;
     }
 
