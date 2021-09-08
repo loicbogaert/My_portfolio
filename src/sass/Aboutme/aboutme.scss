@@ -1,0 +1,169 @@
+.aboutmePage {
+    height: 100%;
+    min-height: 100vh;
+    display: block;
+}
+
+.aboutmeContainer {
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    
+    &__section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title{
+        color: $color1;
+        font-size: 35px;
+        text-align: center;
+        font-family: 'Lobster', cursive;
+        padding: 10px;
+    }
+
+    &__txt{
+        font-size: 22px;
+        padding: 20px;
+        padding-bottom: 0px;
+        font-family: 'Patrick Hand', cursive;
+        font-weight: bold;
+    }
+
+    &__passionsContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: space-around;
+        justify-items: space-around;
+        align-items: space-around;
+    }
+
+    &__passionsDiv{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    &__passionsTitle {
+        color: $color1;
+        padding-top: 20px;
+        font-size: 23px;
+        text-align: center;
+        font-family: 'Lobster', cursive;
+    }
+
+    &__passionsTxt {
+        font-size: 22px;
+        padding: 20px;
+        padding-bottom: 0px;
+        font-family: 'Patrick Hand', cursive;
+        font-weight: bold;
+    }
+}
+
+.greenTrail {
+    width: 80%;
+    height: 2px;
+    background-color: $color1;
+    align-self: center;
+    margin-top: 15px;
+}
+
+.greenTrail2 {
+    width: 40%;
+    height: 2px;
+    background-color: $color1;
+    align-self: center;
+    margin-top: 15px;
+}
+
+.imgContainer {
+    position: absolute;
+    width: 31%;
+    height: 200px;
+    z-index: -100;
+}
+
+
+.guitar {
+    height: 90%;
+    width: auto;
+    opacity: 20%;
+}
+
+
+// FORMAT MOBILE / TALBETTE
+
+@media (max-width: 768px) {
+    .aboutmeContainer {
+        height: 100%;
+        &__section{
+            display: flex;
+            flex-direction: column;
+        }
+
+        #qui {
+            padding-top: 10vh;
+        }
+    
+        &__title{
+            font-size: 28px;
+        }
+    
+        &__txt{
+            font-size: 20px;
+        }
+    
+        &__passionsContainer{
+            display: flex;
+            flex-direction: column;
+        }
+    
+        &__passionsTitle {
+            color: $color1;
+        }
+    
+        &__passionsTxt {
+            font-size: 20px;
+        }
+    }
+    
+    .greenTrail {
+        width: 90%;
+        height: 2px;
+        background-color: $color1;
+        align-self: center;
+        margin-top: 15px;
+    }
+    
+    .greenTrail2 {
+        margin-top: 15px;
+        width: 60%;
+        height: 2px;
+        background-color: $color1;
+        align-self: center;
+    }
+    
+    .imgContainer {
+        position: absolute;
+        width: 100%;
+        height: 25%;
+        z-index: -100;
+    }
+    
+    
+    .guitar {
+        height: 65%;
+        width: auto;
+        opacity: 20%;
+    }
+
+    .codeImg {
+        padding-top: 25px;
+    }
+}

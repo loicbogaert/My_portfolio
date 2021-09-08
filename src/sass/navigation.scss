@@ -1,0 +1,164 @@
+/*navigaiton menu*/
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 35px;
+    height: 100%;
+    width: 10vh;
+    position: fixed;
+    background-color: white;
+    border-right: 1px solid $color1;
+    z-index: 999;
+    animation-name: menuAppear;
+    animation-duration: 0.7s;
+    animation-timing-function: linear;
+    overflow: hidden;
+        a {
+            text-decoration: none;
+            color: rgb(189, 189, 189);
+            display: block;
+            width: 100%;
+            position: relative;
+        }
+
+        a:after {
+            content: "";
+            position: absolute;
+            background-color: rgb(189, 189, 189);
+            height: 105%;
+            width: 5px;
+            bottom: 0;
+            right: -6px;
+            border-radius: 8px 0 0 8px;
+        }
+
+        a:not(.active):hover:after{
+            right:  0;
+            transition: .3s;
+        }
+
+        a:not(.active):hover{
+            text-shadow: 1px 1px 2px $color1;
+        }
+
+        a.active {
+            color: $color1;
+        }
+
+        a.active:after{
+            right: 0;
+            background-color: $color1;
+            transition: 0.5s;
+        }
+    &__item {
+        width: 150px;
+        text-align: center;
+        display: flex;
+        &:hover {
+            font-weight: bolder;
+            cursor: pointer;
+        }
+    }
+    &__txt {
+        font-size: 15px;
+        width: 8vh;
+        font-weight: bold;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+}
+
+.menu_hidden {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    /*navigaiton menu*/
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 35px;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    border-bottom: 1px solid $color1;
+    border-right: none;
+    z-index: 999;
+    animation-name: menuAppearMobile;
+    animation-duration: 0.7s;
+    animation-timing-function: linear;
+    top: 0;
+        a {
+            text-decoration: none;
+            color: grey;
+            display: block;
+            width: 100%;
+        }
+    &__item {
+        width: 20%;
+        text-align: center;
+        display: flex;
+        height: 100%;
+        padding-top: 5px;
+        &:hover {
+            font-weight: bolder;
+            cursor: pointer;
+            i {
+                text-shadow: 1px 1px 1px black;
+            }
+        }
+    }
+    &__txt {
+        font-size: 15px;
+        width: 8vh;
+        font-weight: bold;
+        text-align: center;
+        width: 100%;
+    }
+
+    a:after {
+        content: "";
+        position: absolute;
+        background-color: rgb(189, 189, 189);
+        height: 5px;
+        width: 100%;
+        bottom: -6px;
+        right: 0;
+        border-radius: 8px 8px 0 0;
+    }
+    
+    a:not(.active):hover:after{
+        right:  0;
+        transition: .3s;
+    }
+    
+    a:not(.active):hover{
+        text-shadow: 1px 1px 2px $color1;
+    }
+    
+    a.active {
+        color: $color1;
+    }
+    
+    a.active:after{
+        bottom: 0;
+        background-color: $color1;
+    }
+}
+
+.menu_hidden {
+    display: none;
+}
+
+}

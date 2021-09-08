@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+$color1 : rgb(0, 89, 92);
+
+#skills {
+    padding-left: 10vh;
+}
+
+#portfolio{
+    padding-left: 10vh;
+}
+
+#aboutme {
+    padding-left: 10vh;
+}
+
+
+@media (max-width: 768px) {
+    #skills {
+        padding-left: 0;
+    }
+    
+    #portfolio{
+        padding-left: 0;
+    }
+    
+    #aboutme {
+        padding-left: 0;
+    }
+}

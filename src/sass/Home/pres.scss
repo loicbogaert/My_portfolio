@@ -1,0 +1,150 @@
+.homeContainer {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.GreyBG {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 35%;
+}
+
+.text-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $color1;
+}
+
+.pres-text {
+    font-size: 32px;
+    font-family: 'Lobster', cursive;
+    padding-bottom: 20px;
+    text-align: justify;
+    width: 100%;
+    text-align: center;
+}
+
+.contact {
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    color: $color1;
+    border: none;
+    transition: 1s ease-out;
+    background-color: white;
+    &:hover{
+        #contact1 {
+            animation: none;
+        }
+        #contact2{
+            transition: 1s;
+            border-top: solid 1px $color1;
+            border-bottom: solid 1px $color1;
+            background-color: white;
+            letter-spacing: 1.5px;
+            opacity: 100%;
+        }
+    }
+    a {
+        text-decoration: none;
+        color: $color1;
+        display: block;
+        height: 100%;
+        line-height: 50px;
+    }
+    #contact2{
+        opacity: 0%;
+    }
+    #contact1{
+        font-size : 50px;
+        animation-name: letterJump;
+        animation-duration: 1.2s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+}
+
+#pres-1 {
+    animation-name : pres-text;
+    animation-duration :1s;
+    animation-delay: 0s;
+    animation-timing-function:linear;
+    animation-fill-mode : forwards;
+    visibility: hidden;
+}
+
+#pres-2 {
+    animation-name : pres-text;
+    animation-duration :1s;
+    animation-delay: 0.3s;
+    animation-timing-function: linear;
+    animation-fill-mode : forwards;
+    visibility: hidden;
+}
+
+#pres-3 {
+    animation-name : pres-text;
+    animation-duration :1s;
+    animation-delay: 0.6s;
+    animation-timing-function: linear;
+    animation-fill-mode : forwards;
+    visibility: hidden;
+}
+
+#pres-4 {
+    animation-name : pres-text;
+    animation-duration :1s;
+    animation-delay: 0.9s;
+    animation-timing-function: linear;
+    animation-fill-mode : forwards;
+    visibility: hidden;
+}
+
+#pres-5 {
+    animation-name : pres-text;
+    animation-duration :1s;
+    animation-delay: 1.2s;
+    animation-timing-function: linear;
+    animation-fill-mode : forwards;
+    visibility: hidden;
+}
+
+/*****************************format MOBILE / TABLETTE******************************/
+
+@media (max-width : 768px) {
+    .GreyBG {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        height: 35%;
+        width: 100%;
+        padding-top: 10px;
+    }
+    .pres-text {
+        font-size: 25px;
+        padding-bottom: 5px;
+        text-align: justify;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .contact {
+        width: 250px;
+        height: 35px;
+        margin-top: 0px;
+        font-size: 15px;
+        a {
+            line-height: 35px;
+        }
+        #contact2{
+            margin-top: 15px;
+        }
+    }
+}

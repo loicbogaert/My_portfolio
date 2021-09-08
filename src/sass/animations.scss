@@ -1,0 +1,295 @@
+        // HOME
+
+// texte de présentation
+@keyframes pres-text {
+    0% {
+        opacity: 0%;
+        margin-left: -35vw;
+    }
+
+    40% {
+        opacity: 20%;
+    }
+
+    100% {
+        opacity: 100%;
+        visibility: visible;
+    }
+
+
+}
+
+// text typing
+@keyframes typing {
+    15%{
+        left: 100%;
+    }
+
+    16% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: hidden;
+        left: 100%;
+    }
+}
+
+@keyframes typing2 {
+    0% {
+        border-color: $color1;
+    }
+
+    18%{
+        border-color: $color1;
+    }
+
+    19%{
+        left: 0%;
+        visibility: visible;
+        border-color: white;
+    }
+
+    40% {
+        left: 100%;
+        visibility: hidden;
+    }
+
+    45% {
+        visibility: hidden;
+        left: 100%;
+    }
+
+    60% {
+        visibility: visible;
+        left: 100%;
+    }
+
+    75% {
+        visibility: hidden;
+        left: 100%;
+    }
+
+    90% {
+        visibility: hidden;
+        left: 100%;
+    }
+
+    100%{
+        left: 100%;
+        visibility: visible;
+    }
+
+}
+
+
+// navbar
+@keyframes navigation{
+    0%{
+        margin-top: 0px;
+    }
+
+    25%{
+        margin-top: -5px;
+    }
+
+    50%{
+        margin-top: 0px;
+    }
+
+    75%{
+        margin-top: -5px;
+    }
+
+    100%{
+        margin-top: 0px;
+    }
+}
+
+@keyframes menuAppear {
+    0% {
+        opacity: 0%;
+        left: -8vh;
+    }
+
+    100% {
+        opacity: 100%;
+        left: 0px;
+    }
+}
+
+
+// contact me
+@keyframes letterJump{
+    0% {
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+
+    33% {
+        margin-bottom: 0px;
+        margin-top: 20px;
+        transform: rotateX(40deg);
+    }
+
+    66% {
+        margin-bottom: 20px;
+        margin-top: 0px;
+        transform: rotateZ(-30deg);
+    }
+
+    100%{
+        margin-bottom: 30px;
+        margin-top: 0px;
+    }
+}
+
+
+// down arrow
+
+@keyframes arrow {
+    0% {
+        padding-bottom: 20px;
+        margin-top: 0px;
+    }
+
+    50% {
+        padding-bottom: 0px;
+        margin-top: 20px;
+    }
+
+    100% {
+        padding-bottom: 20px;
+        margin-top: 0px;
+    }
+}
+
+
+// skills bar animations
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100%{
+        width: 95%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100%{
+        width: 95%;
+    }
+}
+
+@keyframes sass {
+    0% {
+        width: 0%;
+    }
+
+    100%{
+        width: 80%;
+    }
+}
+
+@keyframes javascript{
+    0% {
+        width: 0%;
+    }
+
+    100%{
+        width: 65%;
+    }
+}
+
+@keyframes react{
+    0% {
+        width: 0%;
+    }
+
+    100%{
+        width: 65%;
+    }
+}
+
+@keyframes mongodb{
+    0% {
+        width: 0%;
+    }
+
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes mongoose{
+    0% {
+        width: 0%;
+    }
+
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes express{
+    0% {
+        width: 0%;
+    }
+
+    100%{
+        width: 75%;
+    }
+}
+
+@keyframes bootstrap{
+    0% {
+        width: 0%;
+    }
+
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes mysql{
+    0% {
+        width: 0%;
+    }
+
+    100%{
+        width: 60%;
+    }
+}
+
+
+// portfolio aniamtion (txt apparition)
+
+@keyframes squareTxt {
+    0% {    
+        opacity: 0%;
+    }
+
+    100% {  
+        opacity: 100%;
+    }
+}
+
+// MOBILE
+
+@keyframes menuAppearMobile {
+    0% {
+        opacity: 0%;
+        top: -10vh;
+    }
+
+    100% {
+        opacity: 100%;
+        top: 0;
+    }
+}
