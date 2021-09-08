@@ -27,6 +27,7 @@
     text-align: justify;
     width: 100%;
     text-align: center;
+    margin-left: -68vw;
 }
 
 .contact {
@@ -39,6 +40,7 @@
     border: none;
     transition: 1s ease-out;
     background-color: white;
+    margin-left: -68vw;
     &:hover{
         #contact1 {
             animation: none;
@@ -77,7 +79,6 @@
     animation-delay: 0s;
     animation-timing-function:linear;
     animation-fill-mode : forwards;
-    visibility: hidden;
 }
 
 #pres-2 {
@@ -86,7 +87,6 @@
     animation-delay: 0.3s;
     animation-timing-function: linear;
     animation-fill-mode : forwards;
-    visibility: hidden;
 }
 
 #pres-3 {
@@ -95,7 +95,6 @@
     animation-delay: 0.6s;
     animation-timing-function: linear;
     animation-fill-mode : forwards;
-    visibility: hidden;
 }
 
 #pres-4 {
@@ -104,7 +103,6 @@
     animation-delay: 0.9s;
     animation-timing-function: linear;
     animation-fill-mode : forwards;
-    visibility: hidden;
 }
 
 #pres-5 {
@@ -113,7 +111,6 @@
     animation-delay: 1.2s;
     animation-timing-function: linear;
     animation-fill-mode : forwards;
-    visibility: hidden;
 }
 
 /*****************************format MOBILE / TABLETTE******************************/

@@ -3,20 +3,13 @@
 // texte de présentation
 @keyframes pres-text {
     0% {
-        opacity: 0%;
-        margin-left: -35vw;
-    }
-
-    40% {
-        opacity: 20%;
+        margin-left: -68vw;
     }
 
     100% {
         opacity: 100%;
-        visibility: visible;
+        margin-left : 0;
     }
-
-
 }
 
 // text typing
