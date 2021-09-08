@@ -4,11 +4,13 @@
 @keyframes pres-text {
     0% {
         margin-left: -68vw;
+        opacity: 0;
     }
 
     100% {
         margin-left : 0;
         visibility: visible;
+        opacity: 1;
     }
 }
 
@@ -92,12 +94,10 @@
 
     75%{
         margin-top: -5px;
-        opacity: 0.3;
     }
 
     100%{
         margin-top: 0px;
-        opacity: 1;
     }
 }
 
