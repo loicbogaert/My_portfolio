@@ -14,8 +14,8 @@ const Portfolio = () => {
 
             <a className="portfolioContainer__link" href="https://loicbogaert.github.io/Creer_site_e-commerce" target="_blank" rel="noreferrer">
                 <div className="portfolioContainer__item">
-                <p className="portfolioContainer__txt" id="txt">Orinoco : Le but de ce projet était de créer le front-end d'un site d'e-commerce et de communiquer avec une API qui avait été fournie à l'avance.</p>
                 <img src={orinocco} alt="aperçu du site"/>
+                <p className="portfolioContainer__txt" id="txt">Orinoco : Le but de ce projet était de créer le front-end d'un site d'e-commerce et de communiquer avec une API qui avait été fournie à l'avance.</p>
                 </div>
             </a>
 
