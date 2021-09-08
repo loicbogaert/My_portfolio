@@ -92,21 +92,23 @@
 
     75%{
         margin-top: -5px;
+        opacity: 0.3;
     }
 
     100%{
         margin-top: 0px;
+        opacity: 1;
     }
 }
 
 @keyframes menuAppear {
     0% {
-        opacity: 0%;
+        opacity: 0;
         left: -8vh;
     }
 
     100% {
-        opacity: 100%;
+        opacity: 1;
         left: 0px;
     }
 }
