@@ -12,6 +12,7 @@ import comingsoon from './portfolio_img/comingsoon.jpg';
 const Portfolio = () => {
     return (
         <div id="portfolio" className="portfolioContainer">
+            <div className="portfolioContainer__background"></div>
 
             <a className="portfolioContainer__link" href="https://loicbogaert.github.io/Creer_site_e-commerce" target="_blank" rel="noreferrer">
                 <div className="portfolioContainer__item">

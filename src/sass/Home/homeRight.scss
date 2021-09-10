@@ -4,7 +4,7 @@
     width: 65%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     overflow: hidden;
 }
 
@@ -263,6 +263,7 @@
         font-size: 55px;
         color: white;
         padding: 20px;
+        padding-top: 0;
         cursor: pointer;
         animation-name: arrow;
         animation-duration: 1.2s;
